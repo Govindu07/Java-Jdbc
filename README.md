@@ -1,8 +1,9 @@
 <h1 align="center"> JDBC Student Database Project </h1>
-
+<div align="center
 ![Java](https://img.shields.io/badge/Java-17-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-8-orange)
-
+ 
+ </div>
 ---
 
 ##  Overview :
@@ -31,9 +32,6 @@ It provides basic operations like inserting, updating, deleting, and retrieving 
 
 
 <img width="554" height="313" alt="Screenshot 2025-09-05 182335" src="https://github.com/user-attachments/assets/ae5dc7d1-0c97-4bb7-9fdb-739820540eea" />
-
----
-
 
 ---
 
