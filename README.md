@@ -27,7 +27,7 @@ It provides basic operations like inserting, updating, deleting, and retrieving 
 ## 📂 Project Structure :
 
 
-<img width="554" height="313" alt="Screenshot 2025-09-05 182335" src="https://github.com/user-attachments/assets/ae5dc7d1-0c97-4bb7-9fdb-739820540eea" />
+<img width="600" height="313" alt="Screenshot 2025-09-05 182335" src="https://github.com/user-attachments/assets/ae5dc7d1-0c97-4bb7-9fdb-739820540eea" />
 
 ---
 
@@ -52,11 +52,15 @@ CREATE DATABASE jdbc_test;
 USE jdbc_test;
 
 CREATE TABLE student (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(50),
-    age INT,
-    course VARCHAR(50)
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    age INT NOT NULL,
+    address VARCHAR(255),
+    dob DATE,
+    college VARCHAR(100)
 );
+
 ```
 
 ### 4. Update StudentDataBase.java with your DB credentials:
@@ -68,15 +72,16 @@ static final String PASSWORD = "5007";
 
 ### 5. Compile & Run :
 ```bash
-javac -cp "library/*" src/StudentDataBase.java
-java -cp "library/*:src" StudentDataBase
+javac -cp "lib/*;src" src\StudentDataBase.java
+java  -cp "lib/*;src" StudentDataBase
+
 ```
 
 ---
 
 ## Example Output :
 ```bash
-Connected to Database : student_db 
+Connected to Database : jdbc_test 
 
 **** Student Management Menu ****
 1. Add Student
