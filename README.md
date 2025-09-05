@@ -2,7 +2,6 @@
 
 ![Java](https://img.shields.io/badge/Java-17-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-8-orange)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
@@ -38,9 +37,9 @@ It provides basic operations like inserting, updating, deleting, and retrieving 
 
 ---
 
-## ⚙️ Setup Instructions  
+##  Setup Instructions : 
 
-### 1. Clone the Repository  
+### 1. Clone the Repository :  
 ```bash
 git clone https://github.com/Govindu07/Java-Jdbc.git
 cd Java-Jdbc
@@ -48,12 +47,12 @@ cd Java-Jdbc
 
 ---
 
-### 2. Add MySQL Connector JAR
+### 2. Add MySQL Connector JAR :
 
 - Download [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/?utm_source=chatgpt.com)
  and place it inside the library/ folder.
 
-### 3. Configure Database
+### 3. Configure Database :
 
 - Create a MySQL database:
 ```bash
@@ -68,7 +67,7 @@ CREATE TABLE student (
 );
 ```
 
-### Update StudentDataBase.java with your DB credentials:
+### 4. Update StudentDataBase.java with your DB credentials:
 ```bash
 static final String URL = "jdbc:mysql://localhost:3306/jdbc_test";
 static final String USER = "root";
@@ -77,7 +76,7 @@ static final String PASSWORD = "5007";
 
 ---
 
-### 4. Compile & Run
+### 5. Compile & Run :
 ```bash
 javac -cp "library/*" src/StudentDataBase.java
 java -cp "library/*:src" StudentDataBase
