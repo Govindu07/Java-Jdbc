@@ -39,8 +39,6 @@ git clone https://github.com/Govindu07/Java-Jdbc.git
 cd Java-Jdbc
 ```
 
----
-
 ### 2. Add MySQL Connector JAR :
 
 - Download [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/?utm_source=chatgpt.com)
@@ -68,13 +66,13 @@ static final String USER = "root";
 static final String PASSWORD = "5007";
 ```
 
----
-
 ### 5. Compile & Run :
 ```bash
 javac -cp "library/*" src/StudentDataBase.java
 java -cp "library/*:src" StudentDataBase
 ```
+
+---
 
 ## Example Output :
 ```bash
