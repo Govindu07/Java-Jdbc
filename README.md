@@ -1,11 +1,8 @@
 <h1 align="center"> JDBC Student Database Project </h1>
-<p align="center
+
 ![Java](https://img.shields.io/badge/Java-17-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-8-orange)
  
- </p>
- 
-
 This project demonstrates **JDBC (Java Database Connectivity)** by connecting a Java program to a **MySQL database**.  
 It provides basic operations like inserting, updating, deleting, and retrieving student records.  
 
