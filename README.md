@@ -6,13 +6,13 @@
 
 ---
 
-## 📌 Overview  
+##  Overview :
 This project demonstrates **JDBC (Java Database Connectivity)** by connecting a Java program to a **MySQL database**.  
 It provides basic operations like inserting, updating, deleting, and retrieving student records.  
 
 ---
 
-## 🚀 Features  
+##  Features : 
 - Connects Java with MySQL database  
 - Console-based menu for CRUD operations  
 - Clean separation of database logic  
@@ -20,7 +20,7 @@ It provides basic operations like inserting, updating, deleting, and retrieving 
 
 ---
 
-## 🛠️ Tech Stack  
+##  Tech Stack :
 - **Java** (JDK 17 or later)  
 - **JDBC API**  
 - **MySQL** (8.x recommended)  
@@ -28,5 +28,12 @@ It provides basic operations like inserting, updating, deleting, and retrieving 
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure :
+
+```bash
+<img width="554" height="313" alt="Screenshot 2025-09-05 182335" src="https://github.com/user-attachments/assets/ae5dc7d1-0c97-4bb7-9fdb-739820540eea" />
+```
+
+
+
 
